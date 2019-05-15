@@ -1,6 +1,3 @@
-##
-vscode 配置
-###
 Atom One Dark Theme
 Auto Close Tag
 Auto Complete Tag
