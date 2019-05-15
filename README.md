@@ -1,6 +1,6 @@
-##
-vscode 配置
-###
+#vscode 配置
+
+```
 Atom One Dark Theme
 Auto Close Tag
 Auto Complete Tag
@@ -39,3 +39,5 @@ React Native Tools
 Vetur
 VSCode Great Icons
 Ant Design Vue helper
+
+```
