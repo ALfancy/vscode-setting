@@ -2,44 +2,49 @@
 
 ## 插件
 ```
-Atom One Dark Theme
-Auto Close Tag
-Auto Complete Tag
-Auto Import
-Auto Rename Tag
-Babel ES6/ES7
-Better Align
-Better Comments
-Chai snippets
-Chinese (Simplified) Language Pack for Visual Studio Code
-Code Spell Checker
-Color Highlight
-Debugger for Chrome
-ES6 Mocha Snippets
-ESLint
-ExpressSnippet
-Full React/React Native/React Router/Redux/GraphQL/ES7/Testing/PropTypes snippets
-Guides
-Identical Sublime Monokai C# theme and colorizer
-Import Cost
-Indenticator
-JavaScript (ES6) code snippets
-JS JSX Snippets
-Live Server
-Lodash Snippets
-Manta's Stylus Supremacy
-markdownlint
-Material Icon Theme
-Node.js Modules Intellisense
-npm Intellisense
-open in browser
-Path Autocomplete
-Path Intellisense
-Prettier - Code formatter
-React Native Tools
-Vetur
-VSCode Great Icons
-Ant Design Vue helper
+1、Atom One Dark Theme
+2、Auto Close Tag
+3、Auto Complete Tag
+4、Auto Import
+5、Auto Rename Tag
+6、Babel ES6/ES7
+7、Better Align
+8、Better Comments
+9、Chai snippets
+10、Chinese (Simplified) Language Pack for Visual Studio Code
+11、Code Spell Checker
+12、Color Highlight
+13、Debugger for Chrome
+14、ES6 Mocha Snippets
+15、ESLint
+16、ExpressSnippet
+17、Full React/React Native/React Router/Redux/GraphQL/ES7/18、Testing/PropTypes snippets
+19、Guides
+20、Identical Sublime Monokai C# theme and colorizer
+21、Import Cost
+22、Indenticator
+23、JavaScript (ES6) code snippets
+24、JS JSX Snippets
+25、Live Server
+26、Lodash Snippets
+27、Manta's Stylus Supremacy
+28、markdownlint
+29、Material Icon Theme
+30、Node.js Modules Intellisense
+31、npm Intellisense
+32、open in browser
+33、Path Autocomplete
+34、Path Intellisense
+35、Prettier - Code formatter
+36、React Native Tools
+37、Vetur
+38、VSCode Great Icons
+39、Ant Design Vue helper
+40、翻译
+41、language-stylus
+42、stylus
+43、Highlight Matching Tag
+44、Vue 2 Snippets
 
 ```
 ## 配置json
