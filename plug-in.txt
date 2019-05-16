@@ -36,3 +36,8 @@ React Native Tools
 Vetur
 VSCode Great Icons
 Ant Design Vue helper
+翻译
+language-stylus
+stylus
+Highlight Matching Tag
+

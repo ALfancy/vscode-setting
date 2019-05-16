@@ -133,3 +133,60 @@ Ant Design Vue helper
   } // 两个选择器中是否换行
 }
 ```
+## 新建vue代码片段
+
+>文件-->首选项-->用户代码片段-->点击新建代码片段--取名vue.json 确定。
+>删除不要的代码,入自己写的.vue模板。
+```
+{
+  "Print to console": {
+      "prefix": "vue",
+      "body": [
+          "<!-- 页面说明 -->",
+          "<template>",
+          "  <div></div>",
+          "</template>",
+          "",
+          "<script>",
+          "import { mapState } from 'vuex';",
+          "export default {",
+
+          "  components: {},",
+          "  data() {",
+          "    return {",
+          "      ",
+          "    };",
+          "  },",
+          "  watch() {",
+          "    ",
+          "  },",
+          "  computed:{",
+          "    ...mapState({",
+          "      ",
+          "    })",
+          "  },",
+          "  created() {",
+          "    ",
+          "  },",
+          "  mounted() {",
+          "    ",
+          "  },",
+          "  methods: {",
+          "    ",
+          "  },",
+          "  beforeDestroy() {",
+          "    ",
+          "  },",
+          "}",
+          "</script>",
+          "",
+          "<style lang='stylus' scoped>",
+          "$4",
+          "</style>"
+      ],
+      "description": "Log output to console"
+  }
+}
+
+
+```
