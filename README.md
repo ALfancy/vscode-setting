@@ -66,9 +66,14 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**[表情]de_modules": true
+    //隐藏java 相关配置...
+    "**/target": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.idea": true,
+    "**/.settings": true,
+    "**/.mvn": true
   },
-  "editor.rulers": [80, 120],
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
@@ -135,8 +140,12 @@
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   } // 两个选择器中是否换行
 }
+
 ```
 ## 新建vue代码片段
 
