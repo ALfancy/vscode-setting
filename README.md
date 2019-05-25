@@ -45,6 +45,7 @@
 42、stylus
 43、Highlight Matching Tag
 44、Vue 2 Snippets
+45、koroFileHeader
 
 ```
 ## 配置json
@@ -52,10 +53,10 @@
 ```
 {
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "editor.renderIndentGuides": false,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.quickSuggestionsDelay": 0,
   "files.trimTrailingWhitespace": true,
   "breadcrumbs.enabled": true,
@@ -80,6 +81,7 @@
     "strings": true
   },
   "editor.minimap.enabled": true,
+  "editor.lineHeight": 0,
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": false,
   "guides.active.width": 3,
@@ -143,7 +145,17 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  } // 两个选择器中是否换行
+  },
+  "liveServer.settings.donotShowInfoMsg": true, // 两个选择器中是否换行
+  // 头部注释
+  "fileheader.customMade": {
+    "Author": "Fred",
+    "Date": "Do not edit",
+    "LastEditors": "Fred",
+    "LastEditTime": "Do not edit",
+    "Description": "file content"
+  },
+  "fileheader.cursorMode": {} // 函数注释
 }
 
 ```
@@ -171,7 +183,7 @@
           "      ",
           "    };",
           "  },",
-          "  watch() {",
+          "  watch:{",
           "    ",
           "  },",
           "  computed:{",
