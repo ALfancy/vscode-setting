@@ -8,8 +8,8 @@
 4、Auto Import
 5、Auto Rename Tag
 6、Babel ES6/ES7
-7、Better Align
-8、Better Comments
+7.koroFileHeader
+8.Vue 2 Snippets
 9、Chai snippets
 10、Chinese (Simplified) Language Pack for Visual Studio Code
 11、Code Spell Checker
@@ -29,7 +29,7 @@
 26、Lodash Snippets
 27、Manta's Stylus Supremacy
 28、markdownlint
-29、Material Icon Theme
+29、vscode-icons
 30、Node.js Modules Intellisense
 31、npm Intellisense
 32、open in browser
@@ -38,14 +38,13 @@
 35、Prettier - Code formatter
 36、React Native Tools
 37、Vetur
-38、VSCode Great Icons
+38、Element UI Snippets
 39、Ant Design Vue helper
 40、翻译
 41、language-stylus
 42、stylus
 43、Highlight Matching Tag
-44、Vue 2 Snippets
-45、koroFileHeader
+44、Vue Theme
 
 ```
 ## 配置json
@@ -54,26 +53,25 @@
 {
   "explorer.confirmDelete": false,
   "window.zoomLevel": -1,
-  "editor.renderIndentGuides": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderIndentGuides": true,
   "editor.fontSize": 16,
   "editor.quickSuggestionsDelay": 0,
   "files.trimTrailingWhitespace": true,
   "breadcrumbs.enabled": true,
   "editor.wordWrap": "on",
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    //隐藏java 相关配置...
-    "**/target": true,
     "**/.classpath": true,
-    "**/.project": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
     "**/.idea": true,
+    "**/.mvn": true,
+    "**/.project": true,
     "**/.settings": true,
-    "**/.mvn": true
+    "**/.svn": true,
+    "**/.vscode": true,
+    "**/CVS": true,
+    "**/target": true
   },
   "editor.quickSuggestions": {
     "other": true,
@@ -82,12 +80,11 @@
   },
   "editor.minimap.enabled": true,
   "editor.lineHeight": 0,
-  "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": false,
   "guides.active.width": 3,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Sublime Monokai",
+  "workbench.colorTheme": "Vue Theme",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "git.autofetch": true,
@@ -155,8 +152,18 @@
     "LastEditTime": "Do not edit",
     "Description": "file content"
   },
-  "fileheader.cursorMode": {} // 函数注释
+  "fileheader.cursorMode": {// 函数注释},
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "onFocusChange",
+  "editor.fontWeight": "600",
+  "workbench.sideBar.location": "right"
 }
+
+
+
+
+
+
 
 ```
 ## 新建vue代码片段
