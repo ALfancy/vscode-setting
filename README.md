@@ -45,12 +45,17 @@
 42、stylus
 43、Highlight Matching Tag
 44、Vue Theme
+45、Material Theme Kit
+46、Project Manager
+47、Browser Preview
+
 
 ```
 ## 配置json
 
 ```
-{
+
+  {
   "explorer.confirmDelete": false,
   "window.zoomLevel": -1,
   "editor.renderIndentGuides": true,
@@ -67,9 +72,7 @@
     "**/.idea": true,
     "**/.mvn": true,
     "**/.project": true,
-    "**/.settings": true,
     "**/.svn": true,
-    "**/.vscode": true,
     "**/CVS": true,
     "**/target": true
   },
@@ -84,7 +87,6 @@
   "guides.active.width": 3,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Vue Theme",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "git.autofetch": true,
@@ -111,7 +113,7 @@
   //  #让prettier使用eslint的代码格式进行校验
   "prettier.eslintIntegration": true,
   //  #去掉代码结尾的分号
-  "prettier.semi": false,
+  "prettier.semi": true,
   //  #使用带引号替代双引号
   "prettier.singleQuote": true,
   //  #让函数(名)和后面的括号之间加个空格
@@ -152,17 +154,15 @@
     "LastEditTime": "Do not edit",
     "Description": "file content"
   },
-  "fileheader.cursorMode": {// 函数注释},
-  "workbench.iconTheme": "vscode-icons",
+  "fileheader.cursorMode": {},
   "files.autoSave": "onFocusChange",
   "editor.fontWeight": "600",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "atomKeymap.promptV3Features": true,
+  "workbench.colorTheme": "Material"
 }
-
-
-
-
-
 
 
 ```
@@ -181,30 +181,34 @@
           "</template>",
           "",
           "<script>",
-          "import { mapState } from 'vuex';",
+          "import { mapState,mapMutations } from 'vuex';",
           "export default {",
 
           "  components: {},",
+          "  filters: { /* 自定义过滤器 */ },",
+          "  directives: { /* 自定义指令 */ },",
           "  data() {",
           "    return {",
           "      ",
           "    };",
           "  },",
-          "  watch:{",
-          "    ",
+          "  watch: {",
+          "      ",
           "  },",
-          "  computed:{",
+          "  computed: {",
           "    ...mapState({",
           "      ",
           "    })",
+          "  },",
+          "  methods: {",
+          "    ...mapMutations([",
+          "      ",
+          "    ])",
           "  },",
           "  created() {",
           "    ",
           "  },",
           "  mounted() {",
-          "    ",
-          "  },",
-          "  methods: {",
           "    ",
           "  },",
           "  beforeDestroy() {",
@@ -220,6 +224,7 @@
       "description": "Log output to console"
   }
 }
+
 
 ```
 ## vscode常用快捷键总结
