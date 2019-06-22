@@ -2,7 +2,6 @@
 
 ## 插件
 ```
-1、Atom One Dark Theme
 2、Auto Close Tag
 3、Auto Complete Tag
 4、Auto Import
@@ -48,6 +47,7 @@
 45、Material Theme Kit
 46、Project Manager
 47、Browser Preview
+48、npm-ui
 
 
 ```
