@@ -117,7 +117,7 @@
   //  #使用带引号替代双引号
   "prettier.singleQuote": true,
   //  #让函数(名)和后面的括号之间加个空格
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
   // #这个按用户自身习惯选择
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   // #让vue中的js按编辑器自带的ts格式进行格式化
@@ -181,9 +181,15 @@
           "</template>",
           "",
           "<script>",
-          "import { mapState,mapMutations } from 'vuex';",
+          "import {",
+          "  mapState,",
+          "  mapGetters,",
+          "  mapMutations,",
+          "  mapActions,",
+          "} from 'vuex';",
+          "",
           "export default {",
-
+          "  name: '',",
           "  components: {},",
           "  filters: { /* 自定义过滤器 */ },",
           "  directives: { /* 自定义指令 */ },",
@@ -197,13 +203,19 @@
           "  },",
           "  computed: {",
           "    ...mapState({",
-          "      ",
-          "    })",
+          "      // ...",
+          "    }),",
+          "    ...mapGetters([",
+          "      // ...",
+          "    ]),",
           "  },",
           "  methods: {",
           "    ...mapMutations([",
-          "      ",
-          "    ])",
+          "      // ...",
+          "    ]),",
+          "    ...mapActions([",
+          "      // ...",
+          "    ]),",
           "  },",
           "  created() {",
           "    ",
@@ -217,14 +229,13 @@
           "}",
           "</script>",
           "",
-          "<style lang='stylus' scoped>",
+          "<style lang='scss' scoped>",
           "$4",
           "</style>"
       ],
       "description": "Log output to console"
   }
 }
-
 
 ```
 ## vscode常用快捷键总结
