@@ -2,52 +2,36 @@
 
 ## 插件
 ```
-2、Auto Close Tag
-3、Auto Complete Tag
-4、Auto Import
-5、Auto Rename Tag
-6、Babel ES6/ES7
-7.koroFileHeader
-8.Vue 2 Snippets
-9、Chai snippets
-10、Chinese (Simplified) Language Pack for Visual Studio Code
-11、Code Spell Checker
-12、Color Highlight
-13、Debugger for Chrome
-14、ES6 Mocha Snippets
-15、ESLint
-16、ExpressSnippet
-17、Full React/React Native/React Router/Redux/GraphQL/ES7/18、Testing/PropTypes snippets
-19、Guides
-20、Identical Sublime Monokai C# theme and colorizer
-21、Import Cost
-22、Indenticator
-23、JavaScript (ES6) code snippets
-24、JS JSX Snippets
-25、Live Server
-26、Lodash Snippets
-27、Manta's Stylus Supremacy
-28、markdownlint
-29、vscode-icons
-30、Node.js Modules Intellisense
-31、npm Intellisense
-32、open in browser
-33、Path Autocomplete
-34、Path Intellisense
-35、Prettier - Code formatter
-36、React Native Tools
-37、Vetur
-38、Element UI Snippets
-39、Ant Design Vue helper
-40、翻译
-41、language-stylus
-42、stylus
-43、Highlight Matching Tag
-44、Vue Theme
-45、Material Theme Kit
-46、Project Manager
-47、Browser Preview
-48、npm-ui
+1、Auto Close Tag
+2、Auto Complete Tag
+3、Auto Import
+4、Auto Rename Tag
+5、Babel ES6/ES7
+6.koroFileHeader
+7.Vue 2 Snippets
+8、Chinese (Simplified) Language Pack for Visual Studio Code
+9、Code Spell Checker
+10、Color Highlight
+11、Guides
+12、Import Cost
+13、Indenticator
+14、JavaScript (ES6) code snippets
+15、Live Server
+16、Manta's Stylus Supremacy
+17、markdownlint
+18、vscode-icons
+19、open in browser
+20、Path Autocomplete
+21、Path Intellisense
+22、Vetur
+23、Element UI Snippets
+24、翻译
+25、language-stylus
+26、stylus
+27、Highlight Matching Tag
+28、Material Theme Kit
+29、Project Manager
+30、npm-ui
 
 
 ```
@@ -56,44 +40,13 @@
 ```
 
   {
-  "explorer.confirmDelete": false,
-  "window.zoomLevel": -1,
-  "editor.renderIndentGuides": true,
+  "editor.renderIndentGuides": false,
   "editor.fontSize": 16,
   "editor.quickSuggestionsDelay": 0,
   "files.trimTrailingWhitespace": true,
   "breadcrumbs.enabled": true,
   "editor.wordWrap": "on",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.idea": true,
-    "**/.mvn": true,
-    "**/.project": true,
-    "**/.svn": true,
-    "**/CVS": true,
-    "**/target": true
-  },
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
-  "editor.minimap.enabled": true,
-  "editor.lineHeight": 0,
-  "editor.renderControlCharacters": false,
-  "guides.active.width": 3,
-  "explorer.confirmDragAndDrop": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "git.autofetch": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  // vscode默认启用了根据文件类型自动设置tabsize的选项
+    // vscode默认启用了根据文件类型自动设置tabsize的选项
   "editor.detectIndentation": false,
   // 重新设定tabsize
   "editor.tabSize": 2,
@@ -156,12 +109,12 @@
   },
   "fileheader.cursorMode": {},
   "files.autoSave": "onFocusChange",
-  "editor.fontWeight": "600",
+  "editor.fontWeight": "500",
   "workbench.sideBar.location": "right",
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.iconTheme": "vscode-icons",
   "atomKeymap.promptV3Features": true,
-  "workbench.colorTheme": "Material"
+  "workbench.colorTheme": "Material",
+  "workbench.iconTheme": "vscode-icons"
 }
 
 
@@ -175,7 +128,6 @@
   "Print to console": {
       "prefix": "vue",
       "body": [
-          "<!-- 页面说明 -->",
           "<template>",
           "  <div></div>",
           "</template>",
@@ -191,8 +143,8 @@
           "export default {",
           "  name: '',",
           "  components: {},",
-          "  filters: { /* 自定义过滤器 */ },",
-          "  directives: { /* 自定义指令 */ },",
+          "  filters: {},",
+          "  directives: {},",
           "  data() {",
           "    return {",
           "      ",
@@ -223,9 +175,6 @@
           "  mounted() {",
           "    ",
           "  },",
-          "  beforeDestroy() {",
-          "    ",
-          "  },",
           "}",
           "</script>",
           "",
@@ -236,6 +185,7 @@
       "description": "Log output to console"
   }
 }
+
 
 ```
 ## vscode常用快捷键总结
