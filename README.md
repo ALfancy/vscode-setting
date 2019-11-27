@@ -31,7 +31,7 @@
 27、Highlight Matching Tag
 28、Material Theme Kit
 29、Project Manager
-30、npm-ui
+30、NPM-Scripts
 
 
 ```
